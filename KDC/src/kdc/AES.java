@@ -51,6 +51,7 @@ public class AES {
 			
 			byte[] textoCifrado = AES.cifra(texto, chave);
 			String textoDecifrado = AES.decifra(textoCifrado, chave);
+			
 			System.out.println(new String(textoCifrado));
 			System.out.println(textoDecifrado);
 		}
